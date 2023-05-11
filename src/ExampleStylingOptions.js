@@ -25,7 +25,7 @@ export default function ExampleStylingOptions() {
       <div css={lionStyles}>lion</div>
 
       {/* CSS Modules */}
-      <div className={styles.mouse}>mouse</div>
+      <div className={styles.mouseTest}>mouse</div>
     </div>
   );
 }

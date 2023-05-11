@@ -1,10 +1,16 @@
+/* eslint-disable react/jsx-key */
+import ExampleArrayOfObjectsInReact from './ExampleArrayOfObjectsInReact';
+import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunctionClass from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
+import ExampleControlledComponentsCheckboxes from './ExampleControlledComponentsCheckboxes';
+import ExampleFetchingInitialState from './ExampleFetchingInitialState';
 import ExampleFormsWithControlledComponents from './ExampleFormsWithControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
 import ExampleProps from './ExampleProps';
+import ExamplePropTypes from './ExamplePropTypes';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
@@ -49,6 +55,30 @@ export default function App() {
             'https://api.memegen.link/images/buzz/memes/memes_everywhere.png?width=400',
         }}
       />
+      <h1>Example: Children Props</h1>
+      <ExampleChildrenProps />
+      <h1>Example: PropTypes</h1>
+      <ExamplePropTypes />
+      <h1>Example: Controlled Components Checkboxes</h1>
+      <ExampleControlledComponentsCheckboxes />
+      <h1>Example: Array Of Objects Nn React</h1>
+      <ExampleArrayOfObjectsInReact />
+      <h1>Example: Fetching Initial State</h1>
+      <ExampleFetchingInitialState />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
