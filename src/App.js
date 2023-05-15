@@ -1,18 +1,22 @@
 /* eslint-disable react/jsx-key */
 import ExampleArrayOfObjectsInReact from './ExampleArrayOfObjectsInReact';
+import ExampleChildrenProp from './ExampleChildrenProp';
 import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunctionClass from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
 import ExampleControlledComponentsCheckboxes from './ExampleControlledComponentsCheckboxes';
+import ExampleDerivingState from './ExampleDerivingState';
 import ExampleFetchingInitialState from './ExampleFetchingInitialState';
 import ExampleFormsWithControlledComponents from './ExampleFormsWithControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
+import ExamplePropDrilling from './ExamplePropDrilling';
 import ExampleProps from './ExampleProps';
 import ExamplePropTypes from './ExamplePropTypes';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
+import ExampleStateManagement from './ExampleStateManagement';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStylingOptions from './ExampleStylingOptions';
 
@@ -65,11 +69,14 @@ export default function App() {
       <ExampleArrayOfObjectsInReact />
       <h1>Example: Fetching Initial State</h1>
       <ExampleFetchingInitialState />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <h1>Example: Deriving State</h1>
+      <ExampleDerivingState />
+      <h1>Example: Prop Drilling</h1>
+      <ExamplePropDrilling />
+      <h1>Example: Children Prop</h1>
+      <ExampleChildrenProp />
+      <h1>Example: State Management</h1>
+      <ExampleStateManagement />
       <br />
       <br />
       <br />
